@@ -2,7 +2,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { Tool, ChatMessage } from '../types';
 
-const API_KEY = process.env.API_KEY || '';
+const API_KEY = 'AIzaSyD0eEAoL2cXDCkC0dcUbbMu7hq6lcxoB0g';
 
 export const createChatSession = (tools: Tool[]) => {
   if (!API_KEY) {
