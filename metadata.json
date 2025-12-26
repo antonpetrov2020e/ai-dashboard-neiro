@@ -1,0 +1,5 @@
+{
+  "name": "AI Tool Stack Dashboard",
+  "description": "An interactive dashboard synchronized with Google Sheets to showcase your AI tools and tech stack, featuring a Gemini-powered assistant.",
+  "requestFramePermissions": []
+}
