@@ -27,7 +27,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: root
-          password: ${{ secrets.PASSWORD }}
+          key: ${{ secrets.SSH_KEY }}
           source: "dist/*"
           target: "/var/www/neiro"
           strip_components: 1
