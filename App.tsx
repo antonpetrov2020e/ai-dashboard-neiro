@@ -16,16 +16,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 const CATEGORY_ICONS: Record<string, React.ElementType> = {
   'Все': LayoutGrid,
   'Генеративные LLM': Bot,
-  'Поиск и исследования': Globe,
+  'Поиск и браузеры': Globe,
   'Разработка и код': Code,
   'Продуктивность': CalendarCheck,
   'Аудио и звук': Mic,
-  'Дизайн и UX/UI': Palette,
+  'Дизайн и графика': Palette,
   'Создание видео': Video,
-  'Презентации': MonitorPlay,
   'AI-агенты и автоматизация': Workflow,
-  'Утилиты и Оплата': CreditCard,
-  'Агрегаторы': Box,
 };
 
 // Helper for Russian declension
